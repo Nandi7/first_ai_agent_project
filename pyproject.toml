@@ -1,0 +1,20 @@
+[project]
+name = "first-ai-agent-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nandor", email = "fejesnandor.nandi@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "openai>=3.51.0",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+first-ai-agent-project = "first_ai_agent_project:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
